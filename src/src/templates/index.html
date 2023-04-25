@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>输入输出示例</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/style.css') }}">
+  </head>
+  <body>
+    <div>
+      <div class="search-container">
+        <div class="image-container">
+          <img src="{{ url_for('static', filename = 'img/01.jpg') }}">
+        </div>
+        <div class="container">
+          <form method="post" action="/">
+            <textarea class="text-input" name = "input_text" placeholder="请输入内容">{{input_text}}</textarea>
+            <button type="submit" class="submit-btn">完成</button>
+          </form>
+        </div>
+      </div>
+      <div class="result-container">
+        <p>{{output}}</p>
+      </div>
+    </div>
+  </body>
+</html>

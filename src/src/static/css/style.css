@@ -1,0 +1,77 @@
+/*图片居中显示*/
+.image-container {
+    padding-top:4%;
+    display: flex;
+    justify-content: center;
+    padding-bottom:1.5%;
+}
+
+img {
+  width: 25%;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+
+}
+
+.text-input {
+  width: 65%;
+  height: 250px;
+  padding: 15px;
+  margin-left:5%;
+  font-size: 18px;
+  line-height: 1.5;
+  border: none;
+  background-color: white;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  resize: none;
+  margin-right: 0;
+}
+
+.submit-btn {
+  width: 5%;
+  height: 282px;
+  font-size: 18px;
+  color: white;
+  background-color: #549fd4;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  color: white;
+  background-color: #285ec1;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.result-container {
+    display: flex;
+    background:#000000;
+    color:#ffffff;
+    margin:0 auto;
+    margin-top:30px;
+    width:65%;
+    height:120px;
+    box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    padding:12px ; /* 设置内边距 */
+    line-height: 1.2em; /* 设置行高为字高的两倍 */
+}
